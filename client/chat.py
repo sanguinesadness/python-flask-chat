@@ -3,7 +3,7 @@ from pyodide.http import pyfetch
 from js import document
 import json
 
-last_seen_id = 0
+last_seen_time = ""
 # Находим элементы интерфейса по их ID
 send_message = document.getElementById("send_message")
 connect_user = document.getElementById("connect_user")
@@ -40,7 +40,7 @@ def append_user(user):
     item.className = "list-group-item"
     item.innerHTML = user["name"]
     if current_user is not None and current_user["id"] == user["id"]:
-      item.className = "list-group-item active"
+      item.className += " active"
     user_list.append(item)
 
 # Вызывается при клике на send_message
@@ -55,17 +55,19 @@ async def connect_user_click(e):
     data = await result.json()
     global current_user
     current_user = data["user"]
+    sender.disabled = True
+    connect_user.disabled = True
 
 # Загружает новые сообщения с сервера и отображает их
 async def load_fresh_messages():
-    global last_seen_id
-    # 1. Загружать все сообщения каждsую секунду (большой трафик)
-    result = await fetch(f"/get_messages?after={last_seen_id}", method="GET")  # Делаем запрос
-    chat_window.innerHTML = ""  # Очищаем окно с сообщениями
+    sender_id = ""
+    if current_user is not None:
+        sender_id = current_user["id"]
+    result = await fetch(f"/get_messages?sender_id={sender_id}", method="GET")
+    chat_window.innerHTML = ""
     data = await result.json()
-    all_messages = data["messages"]  # Берем список сообщений из ответа сервера
+    all_messages = data["messages"]
     for msg in all_messages:
-        last_seen_id = msg["msg_id"]
         append_message(msg)
     set_timeout(1, load_fresh_messages)
 

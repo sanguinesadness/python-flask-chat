@@ -18,7 +18,7 @@ def add_message(sender, text):
     new_message = {
         "sender": sender,
         "text": text,
-        "time": datetime.now().strftime("%H:%M"),
+        "time": datetime.now(),
         "msg_id": msg_id
     }
     msg_id += 1
@@ -29,7 +29,8 @@ def add_user(name):
     global user_id
     new_user = {
         "id": user_id,
-        "name": name
+        "name": name,
+        "connect_time": datetime.now()
     }
     user_id += 1
     connected_users.append(new_user)
@@ -38,7 +39,19 @@ def add_user(name):
 
 @app.route("/get_messages")
 def get_messages():
-    return {"messages": all_messages}
+    sender_id = request.args["sender_id"]
+    if sender_id == "":
+        return { "messages": [] }
+    connect_time = None
+    for user in connected_users:
+        if int(user["id"]) == int(sender_id):
+            connect_time = user["connect_time"]
+    messages = []
+    for message in all_messages:
+        if message["time"] >= connect_time:
+            messages.append(message)
+
+    return { "messages": messages }
 
 
 @app.route("/get_users")
