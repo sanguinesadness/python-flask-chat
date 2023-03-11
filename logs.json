@@ -88,6 +88,269 @@
                     "msg_id": 1
                 }
             ]
+        },
+        {
+            "session_id": "691f94f3-fb6a-4e82-aa11-6cf0dc9ddfa4",
+            "messages": []
+        },
+        {
+            "session_id": "c686239c-1caf-481f-9a4d-bf8cee1a2160",
+            "messages": []
+        },
+        {
+            "session_id": "80f68dc9-9d2a-4e1c-99b8-dcd3f7c41067",
+            "messages": []
+        },
+        {
+            "session_id": "4ce5e744-4a0a-4d6a-84a5-fc4393bfb7a1",
+            "messages": []
+        },
+        {
+            "session_id": "e9ef71ae-9bb3-4d68-810a-044329f48fec",
+            "messages": []
+        },
+        {
+            "session_id": "7918568c-7546-4da4-9c61-627272cd21fb",
+            "messages": []
+        },
+        {
+            "session_id": "319cdb55-9518-465b-90b3-f0dfefd36481",
+            "messages": []
+        },
+        {
+            "session_id": "d14a5386-5eca-4015-96e0-47f595faf993",
+            "messages": []
+        },
+        {
+            "session_id": "a61d5316-7126-4e28-99b9-2de84c79cea8",
+            "messages": []
+        },
+        {
+            "session_id": "53e5a04b-964d-4891-897a-4747469c73ab",
+            "messages": []
+        },
+        {
+            "session_id": "119efc1a-a4ed-42ea-b3fc-4eeddf125c3a",
+            "messages": []
+        },
+        {
+            "session_id": "0fdacce5-d546-4b28-84f7-d43256c500d4",
+            "messages": []
+        },
+        {
+            "session_id": "7ecef3de-5fb6-44b7-9e1e-24d83f4cc137",
+            "messages": []
+        },
+        {
+            "session_id": "f66443ad-91a1-44b8-acc0-e633db6435fd",
+            "messages": []
+        },
+        {
+            "session_id": "6e023fe7-3eaa-48e7-b159-791711c10cbe",
+            "messages": []
+        },
+        {
+            "session_id": "9e1c7a91-76a8-4b91-90bc-a186bdfa9b86",
+            "messages": []
+        },
+        {
+            "session_id": "95063926-fe65-40f6-9202-7ff94b68d20c",
+            "messages": []
+        },
+        {
+            "session_id": "e21d2c45-c248-47b0-88a7-a102f2f59ae1",
+            "messages": []
+        },
+        {
+            "session_id": "de89f16c-6cfe-4c7e-beb3-99543036e3f4",
+            "messages": []
+        },
+        {
+            "session_id": "e2de5028-0481-42d9-bf89-f7c162d3adb8",
+            "messages": [
+                {
+                    "sender": "SUV",
+                    "text": "BOOOOO",
+                    "time": "03/12/2023",
+                    "msg_id": 1
+                }
+            ]
+        },
+        {
+            "session_id": "0fd57d9a-5911-4c71-b9a5-d09bf752bd40",
+            "messages": []
+        },
+        {
+            "session_id": "6aabdeb8-582e-4075-98a9-e670f7b2c05f",
+            "messages": []
+        },
+        {
+            "session_id": "dcc58e9b-e67f-4a0e-8a2b-24bb3ecf5481",
+            "messages": []
+        },
+        {
+            "session_id": "da65127a-22c1-4028-bcd9-79664270977d",
+            "messages": []
+        },
+        {
+            "session_id": "6be1f3da-4142-429f-9fcf-a06b0c21ee27",
+            "messages": []
+        },
+        {
+            "session_id": "97bb52d9-f460-4e7d-96a4-92b300a45d57",
+            "messages": []
+        },
+        {
+            "session_id": "937dce3f-c3f5-44d7-823c-0cb3d0fc698e",
+            "messages": []
+        },
+        {
+            "session_id": "8afc7289-9959-4ac4-83be-9ac8eddfd78e",
+            "messages": []
+        },
+        {
+            "session_id": "28277a1d-8273-43db-bdfe-c78e8e38a5a0",
+            "messages": []
+        },
+        {
+            "session_id": "79d82fbe-08d2-42e7-844f-fc6b2ee06bad",
+            "messages": []
+        },
+        {
+            "session_id": "b673d31d-ae06-48d3-a84a-e3d0af7e1178",
+            "messages": []
+        },
+        {
+            "session_id": "86fe8e32-92d8-4212-b730-c170057dcaeb",
+            "messages": []
+        },
+        {
+            "session_id": "dce298ec-85a4-439f-a411-1dd1e2c67503",
+            "messages": []
+        },
+        {
+            "session_id": "a71a3836-be52-4ab3-9cc1-98e4f85e1765",
+            "messages": []
+        },
+        {
+            "session_id": "71b73f0a-7964-41bf-801b-29821ab3063a",
+            "messages": []
+        },
+        {
+            "session_id": "3800b3e5-2015-44bc-9c32-e3d641f53288",
+            "messages": [
+                {
+                    "sender": "Oleg",
+                    "text": "Всем привет в этом чатике!",
+                    "time": "03/12/2023",
+                    "msg_id": 1
+                }
+            ]
+        },
+        {
+            "session_id": "698c1c25-f8da-46d7-aab0-17dfd0c85ba4",
+            "messages": []
+        },
+        {
+            "session_id": "4495be93-f79e-49e8-a358-29bf972ed781",
+            "messages": [
+                {
+                    "sender": "Gennadiy",
+                    "text": "Привет всем!",
+                    "time": "03/12/2023",
+                    "msg_id": 1
+                },
+                {
+                    "sender": "Oleg",
+                    "text": "И тебе приветик!",
+                    "time": "03/12/2023",
+                    "msg_id": 2
+                },
+                {
+                    "sender": "Lenya",
+                    "text": "Я Леня",
+                    "time": "03/12/2023",
+                    "msg_id": 3
+                }
+            ]
+        },
+        {
+            "session_id": "390c550c-c55b-4880-bbf5-8fefcbcf90e4",
+            "messages": []
+        },
+        {
+            "session_id": "b96a76d6-c935-47b2-847a-0835ad561ba9",
+            "messages": [
+                {
+                    "sender": "Gennadiy",
+                    "text": "Hi there",
+                    "time": "03/12/2023",
+                    "msg_id": 2
+                }
+            ]
+        },
+        {
+            "session_id": "cbe1d36a-83dc-47f7-aa90-da297fcc62b0",
+            "messages": []
+        },
+        {
+            "session_id": "d50799d3-d50e-421c-82ae-9ecbfa4496d7",
+            "messages": [
+                {
+                    "sender": "Goga",
+                    "text": "qwe",
+                    "time": "03/12/2023, 01:50:38",
+                    "msg_id": 1
+                }
+            ]
+        },
+        {
+            "session_id": "33d3d86b-9872-4475-9960-fdd0c85f4ec8",
+            "messages": [
+                {
+                    "sender": "Gennadiy",
+                    "text": "sdf",
+                    "time": "03/12/2023, 01:52:24",
+                    "msg_id": 1
+                }
+            ]
+        },
+        {
+            "session_id": "e81b0029-e3a3-4106-9f9c-25b4dbe50b4c",
+            "messages": [
+                {
+                    "sender": "Oleg",
+                    "text": "sdf",
+                    "time": "03/12/2023, 01:53:26",
+                    "msg_id": 1
+                }
+            ]
+        },
+        {
+            "session_id": "1425a6d6-6165-4072-90c7-e54af079b83d",
+            "messages": []
+        },
+        {
+            "session_id": "6513b67a-fa08-4210-a283-c08f8c270d46",
+            "messages": [
+                {
+                    "sender": "sdf",
+                    "text": "dsfg",
+                    "time": "03/12/2023, 01:55:37",
+                    "msg_id": 1
+                }
+            ]
+        },
+        {
+            "session_id": "a4581966-39d3-4f9b-857e-075e0a3a3472",
+            "messages": [
+                {
+                    "sender": "Billy",
+                    "text": "ho-ho-ho",
+                    "time": "03/12/2023, 01:56:33",
+                    "msg_id": 1
+                }
+            ]
         }
     ]
 }

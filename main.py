@@ -24,7 +24,7 @@ def add_message(sender, text):
     # Same msg object but with converted "time" property to str
     msg_for_logs = {
        **msg,
-       "time": msg["time"].strftime('%m/%d/%Y')
+       "time": msg["time"].strftime("%m/%d/%Y, %H:%M:%S")
     }
     logs.logs_write_message(msg_for_logs)
 

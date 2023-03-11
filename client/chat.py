@@ -5,11 +5,11 @@ import json
 
 last_seen_time = ""
 # Находим элементы интерфейса по их ID
-send_message = document.getElementById("send_message")
-connect_user = document.getElementById("connect_user")
+send_message = document.getElementById("send-message")
+connect_user = document.getElementById("connect-user")
 sender = document.getElementById("sender")
-message_text = document.getElementById("message_text")
-chat_window = document.getElementById("chat_window")
+message_text = document.getElementById("message-text")
+chat_window = document.getElementById("chat-window")
 user_list = document.getElementById("user-list")
 
 current_user = None
@@ -26,13 +26,17 @@ def set_timeout(delay, callback):
         asyncio.get_running_loop().run_until_complete(callback())
     asyncio.get_running_loop().call_later(delay, sync)
 
-# Добавляет новое сообщение в список сообщений
+
 def append_message(message):
-    # Создаем HTML-элемент представляющий сообщение
-    item = document.createElement("li")  # li - это HTML-тег для элемента списка
-    item.className = "list-group-item"   # className - определяет как элемент выглядит
-    # Добавляем его в список сообщений (chat_window)
-    item.innerHTML = f'[<b>{message["sender"]}</b>]: <span>{message["text"]}</span><span class="badge text-bg-light text-secondary">{message["time"]}</span>'
+    item = document.createElement("li")
+    item.className = "list-group-item list-group-item--chat"
+
+    message_elements = {
+        "sender": f'<span class="me-1">[<b>{message["sender"]}</b>]:</span>',
+        "text": f'<span>{message["text"]}</span>',
+        "time": f'<span class="badge text-bg-light text-secondary ms-auto">{message["time"]}</span>'
+    }
+    item.innerHTML = message_elements["sender"] + message_elements["text"] + message_elements["time"]
     chat_window.prepend(item)
 
 def append_user(user):
@@ -57,6 +61,8 @@ async def connect_user_click(e):
     current_user = data["user"]
     sender.disabled = True
     connect_user.disabled = True
+    message_text.disabled = False
+    send_message.disabled = False
 
 # Загружает новые сообщения с сервера и отображает их
 async def load_fresh_messages():
@@ -75,8 +81,9 @@ async def load_users():
     result = await fetch(f"/get_users", method="GET")
     data = await result.json()
     users = data["users"]
-    user_list.innerHTML = ""
-    for user in users:
+    if len(users) > 0:
+      user_list.innerHTML = ""
+      for user in users:
         append_user(user)
     set_timeout(2, load_users)
 

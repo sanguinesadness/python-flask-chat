@@ -1,0 +1,12 @@
+.chat-container {
+  width: 640px;
+  height: calc(100vh - 30px);
+}
+
+.form-button {
+  width: 111px;
+}
+
+.list-group-item--chat {
+  display: flex !important;
+}
