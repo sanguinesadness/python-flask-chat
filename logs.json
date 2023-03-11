@@ -1,0 +1,93 @@
+{
+    "sessions": [
+        {
+            "session_id": "94624c22-1cdf-4b13-a446-f05aaf06eaee",
+            "messages": [
+                {
+                    "sender": "chmonya",
+                    "text": "hello world!",
+                    "time": "03/11/2023",
+                    "msg_id": 1
+                },
+                {
+                    "sender": "chmonya",
+                    "text": "qwe",
+                    "time": "03/11/2023",
+                    "msg_id": 2
+                },
+                {
+                    "sender": "chmonya",
+                    "text": "123",
+                    "time": "03/11/2023",
+                    "msg_id": 3
+                },
+                {
+                    "sender": "poka_poka",
+                    "text": "kak dela?",
+                    "time": "03/11/2023",
+                    "msg_id": 4
+                }
+            ]
+        },
+        {
+            "session_id": "c55a20fa-24e5-4f7e-b43a-b4ca9681cb82",
+            "messages": [
+                {
+                    "sender": "Boris",
+                    "text": "qwerty",
+                    "time": "03/11/2023",
+                    "msg_id": 1
+                }
+            ]
+        },
+        {
+            "session_id": "dded4176-7a8c-45aa-8a6b-82e4c6355c0a",
+            "messages": [
+                {
+                    "sender": "Fedor",
+                    "text": "Privet vsem!",
+                    "time": "03/11/2023",
+                    "msg_id": 1
+                },
+                {
+                    "sender": "Bobik",
+                    "text": "qwe123",
+                    "time": "03/11/2023",
+                    "msg_id": 2
+                }
+            ]
+        },
+        {
+            "session_id": "8d175293-17e5-4445-bbe8-ba19b24615be",
+            "messages": []
+        },
+        {
+            "session_id": "c40aa71d-ea83-478c-9df8-66b584a18846",
+            "messages": [
+                {
+                    "sender": "chmonya",
+                    "text": "qwe",
+                    "time": "03/11/2023",
+                    "msg_id": 1
+                },
+                {
+                    "sender": "rapid002",
+                    "text": "Hello there",
+                    "time": "03/11/2023",
+                    "msg_id": 2
+                }
+            ]
+        },
+        {
+            "session_id": "1839548f-708d-4355-ba9f-cdd9b20b340e",
+            "messages": [
+                {
+                    "sender": "qwe",
+                    "text": "hello world",
+                    "time": "03/11/2023",
+                    "msg_id": 1
+                }
+            ]
+        }
+    ]
+}

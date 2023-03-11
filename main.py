@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template
 from datetime import datetime
+import logs
 
 app = Flask(__name__, static_folder="./client", template_folder="./client")  # Настройки приложения
 
@@ -8,21 +9,24 @@ user_id = 1
 all_messages = []
 connected_users = []
 
-@app.route("/chat")
-def chat_page():
-    return render_template("chat.html")
-
 
 def add_message(sender, text):
     global msg_id
-    new_message = {
+    msg = {
         "sender": sender,
         "text": text,
         "time": datetime.now(),
         "msg_id": msg_id
     }
     msg_id += 1
-    all_messages.append(new_message)
+    all_messages.append(msg)
+
+    # Same msg object but with converted "time" property to str
+    msg_for_logs = {
+       **msg,
+       "time": msg["time"].strftime('%m/%d/%Y')
+    }
+    logs.logs_write_message(msg_for_logs)
 
 
 def add_user(name):
@@ -35,6 +39,12 @@ def add_user(name):
     user_id += 1
     connected_users.append(new_user)
     return new_user
+
+
+@app.route("/chat")
+def chat_page():
+    logs.logs_create_session()
+    return render_template("chat.html")
 
 
 @app.route("/get_messages")
