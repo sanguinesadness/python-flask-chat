@@ -9,4 +9,6 @@
 
 .list-group-item--chat {
   display: flex !important;
+  align-items: center;
+  height: 48px;
 }

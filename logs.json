@@ -1,354 +1,207 @@
 {
     "sessions": [
         {
-            "session_id": "94624c22-1cdf-4b13-a446-f05aaf06eaee",
+            "session_id": "ba14a3ce-f550-4c1e-bd8d-0d23ac7ab0ae",
             "messages": [
                 {
-                    "sender": "chmonya",
-                    "text": "hello world!",
-                    "time": "03/11/2023",
+                    "sender": {
+                        "id": 1,
+                        "name": "user1",
+                        "connect_time": "03/12/2023, 23:55:13"
+                    },
+                    "text": "qwe",
+                    "time": "03/12/2023, 23:55:20",
                     "msg_id": 1
                 },
                 {
-                    "sender": "chmonya",
-                    "text": "qwe",
-                    "time": "03/11/2023",
+                    "sender": {
+                        "id": 2,
+                        "name": "user2",
+                        "connect_time": "03/12/2023, 23:55:51"
+                    },
+                    "text": "qwe2",
+                    "time": "03/12/2023, 23:56:03",
                     "msg_id": 2
                 },
                 {
-                    "sender": "chmonya",
-                    "text": "123",
-                    "time": "03/11/2023",
+                    "sender": {
+                        "id": 3,
+                        "name": "user3",
+                        "connect_time": "03/12/2023, 23:55:58"
+                    },
+                    "text": "qwe3",
+                    "time": "03/12/2023, 23:56:18",
                     "msg_id": 3
                 },
                 {
-                    "sender": "poka_poka",
-                    "text": "kak dela?",
-                    "time": "03/11/2023",
+                    "sender": {
+                        "id": 2,
+                        "name": "user2",
+                        "connect_time": "03/12/2023, 23:55:51"
+                    },
+                    "text": "sdfgfdsg",
+                    "time": "03/12/2023, 23:57:24",
                     "msg_id": 4
                 }
             ]
         },
         {
-            "session_id": "c55a20fa-24e5-4f7e-b43a-b4ca9681cb82",
+            "session_id": "de10af03-297b-4b23-83f2-293b2da8f856",
             "messages": [
                 {
-                    "sender": "Boris",
-                    "text": "qwerty",
-                    "time": "03/11/2023",
-                    "msg_id": 1
-                }
-            ]
-        },
-        {
-            "session_id": "dded4176-7a8c-45aa-8a6b-82e4c6355c0a",
-            "messages": [
-                {
-                    "sender": "Fedor",
-                    "text": "Privet vsem!",
-                    "time": "03/11/2023",
-                    "msg_id": 1
-                },
-                {
-                    "sender": "Bobik",
-                    "text": "qwe123",
-                    "time": "03/11/2023",
-                    "msg_id": 2
-                }
-            ]
-        },
-        {
-            "session_id": "8d175293-17e5-4445-bbe8-ba19b24615be",
-            "messages": []
-        },
-        {
-            "session_id": "c40aa71d-ea83-478c-9df8-66b584a18846",
-            "messages": [
-                {
-                    "sender": "chmonya",
+                    "sender": {
+                        "id": 1,
+                        "name": "user1",
+                        "connect_time": "03/13/2023, 00:13:19"
+                    },
                     "text": "qwe",
-                    "time": "03/11/2023",
+                    "time": "03/13/2023, 00:13:22",
                     "msg_id": 1
                 },
                 {
-                    "sender": "rapid002",
-                    "text": "Hello there",
-                    "time": "03/11/2023",
-                    "msg_id": 2
-                }
-            ]
-        },
-        {
-            "session_id": "1839548f-708d-4355-ba9f-cdd9b20b340e",
-            "messages": [
-                {
-                    "sender": "qwe",
-                    "text": "hello world",
-                    "time": "03/11/2023",
-                    "msg_id": 1
-                }
-            ]
-        },
-        {
-            "session_id": "691f94f3-fb6a-4e82-aa11-6cf0dc9ddfa4",
-            "messages": []
-        },
-        {
-            "session_id": "c686239c-1caf-481f-9a4d-bf8cee1a2160",
-            "messages": []
-        },
-        {
-            "session_id": "80f68dc9-9d2a-4e1c-99b8-dcd3f7c41067",
-            "messages": []
-        },
-        {
-            "session_id": "4ce5e744-4a0a-4d6a-84a5-fc4393bfb7a1",
-            "messages": []
-        },
-        {
-            "session_id": "e9ef71ae-9bb3-4d68-810a-044329f48fec",
-            "messages": []
-        },
-        {
-            "session_id": "7918568c-7546-4da4-9c61-627272cd21fb",
-            "messages": []
-        },
-        {
-            "session_id": "319cdb55-9518-465b-90b3-f0dfefd36481",
-            "messages": []
-        },
-        {
-            "session_id": "d14a5386-5eca-4015-96e0-47f595faf993",
-            "messages": []
-        },
-        {
-            "session_id": "a61d5316-7126-4e28-99b9-2de84c79cea8",
-            "messages": []
-        },
-        {
-            "session_id": "53e5a04b-964d-4891-897a-4747469c73ab",
-            "messages": []
-        },
-        {
-            "session_id": "119efc1a-a4ed-42ea-b3fc-4eeddf125c3a",
-            "messages": []
-        },
-        {
-            "session_id": "0fdacce5-d546-4b28-84f7-d43256c500d4",
-            "messages": []
-        },
-        {
-            "session_id": "7ecef3de-5fb6-44b7-9e1e-24d83f4cc137",
-            "messages": []
-        },
-        {
-            "session_id": "f66443ad-91a1-44b8-acc0-e633db6435fd",
-            "messages": []
-        },
-        {
-            "session_id": "6e023fe7-3eaa-48e7-b159-791711c10cbe",
-            "messages": []
-        },
-        {
-            "session_id": "9e1c7a91-76a8-4b91-90bc-a186bdfa9b86",
-            "messages": []
-        },
-        {
-            "session_id": "95063926-fe65-40f6-9202-7ff94b68d20c",
-            "messages": []
-        },
-        {
-            "session_id": "e21d2c45-c248-47b0-88a7-a102f2f59ae1",
-            "messages": []
-        },
-        {
-            "session_id": "de89f16c-6cfe-4c7e-beb3-99543036e3f4",
-            "messages": []
-        },
-        {
-            "session_id": "e2de5028-0481-42d9-bf89-f7c162d3adb8",
-            "messages": [
-                {
-                    "sender": "SUV",
-                    "text": "BOOOOO",
-                    "time": "03/12/2023",
-                    "msg_id": 1
-                }
-            ]
-        },
-        {
-            "session_id": "0fd57d9a-5911-4c71-b9a5-d09bf752bd40",
-            "messages": []
-        },
-        {
-            "session_id": "6aabdeb8-582e-4075-98a9-e670f7b2c05f",
-            "messages": []
-        },
-        {
-            "session_id": "dcc58e9b-e67f-4a0e-8a2b-24bb3ecf5481",
-            "messages": []
-        },
-        {
-            "session_id": "da65127a-22c1-4028-bcd9-79664270977d",
-            "messages": []
-        },
-        {
-            "session_id": "6be1f3da-4142-429f-9fcf-a06b0c21ee27",
-            "messages": []
-        },
-        {
-            "session_id": "97bb52d9-f460-4e7d-96a4-92b300a45d57",
-            "messages": []
-        },
-        {
-            "session_id": "937dce3f-c3f5-44d7-823c-0cb3d0fc698e",
-            "messages": []
-        },
-        {
-            "session_id": "8afc7289-9959-4ac4-83be-9ac8eddfd78e",
-            "messages": []
-        },
-        {
-            "session_id": "28277a1d-8273-43db-bdfe-c78e8e38a5a0",
-            "messages": []
-        },
-        {
-            "session_id": "79d82fbe-08d2-42e7-844f-fc6b2ee06bad",
-            "messages": []
-        },
-        {
-            "session_id": "b673d31d-ae06-48d3-a84a-e3d0af7e1178",
-            "messages": []
-        },
-        {
-            "session_id": "86fe8e32-92d8-4212-b730-c170057dcaeb",
-            "messages": []
-        },
-        {
-            "session_id": "dce298ec-85a4-439f-a411-1dd1e2c67503",
-            "messages": []
-        },
-        {
-            "session_id": "a71a3836-be52-4ab3-9cc1-98e4f85e1765",
-            "messages": []
-        },
-        {
-            "session_id": "71b73f0a-7964-41bf-801b-29821ab3063a",
-            "messages": []
-        },
-        {
-            "session_id": "3800b3e5-2015-44bc-9c32-e3d641f53288",
-            "messages": [
-                {
-                    "sender": "Oleg",
-                    "text": "Всем привет в этом чатике!",
-                    "time": "03/12/2023",
-                    "msg_id": 1
-                }
-            ]
-        },
-        {
-            "session_id": "698c1c25-f8da-46d7-aab0-17dfd0c85ba4",
-            "messages": []
-        },
-        {
-            "session_id": "4495be93-f79e-49e8-a358-29bf972ed781",
-            "messages": [
-                {
-                    "sender": "Gennadiy",
-                    "text": "Привет всем!",
-                    "time": "03/12/2023",
-                    "msg_id": 1
-                },
-                {
-                    "sender": "Oleg",
-                    "text": "И тебе приветик!",
-                    "time": "03/12/2023",
+                    "sender": {
+                        "id": 2,
+                        "name": "user2",
+                        "connect_time": "03/13/2023, 00:13:41"
+                    },
+                    "text": "qwe2",
+                    "time": "03/13/2023, 00:13:53",
                     "msg_id": 2
                 },
                 {
-                    "sender": "Lenya",
-                    "text": "Я Леня",
-                    "time": "03/12/2023",
+                    "sender": {
+                        "id": 3,
+                        "name": "user3",
+                        "connect_time": "03/13/2023, 00:13:43"
+                    },
+                    "text": "qwe3",
+                    "time": "03/13/2023, 00:13:55",
                     "msg_id": 3
-                }
-            ]
-        },
-        {
-            "session_id": "390c550c-c55b-4880-bbf5-8fefcbcf90e4",
-            "messages": []
-        },
-        {
-            "session_id": "b96a76d6-c935-47b2-847a-0835ad561ba9",
-            "messages": [
+                },
                 {
-                    "sender": "Gennadiy",
-                    "text": "Hi there",
-                    "time": "03/12/2023",
-                    "msg_id": 2
-                }
-            ]
-        },
-        {
-            "session_id": "cbe1d36a-83dc-47f7-aa90-da297fcc62b0",
-            "messages": []
-        },
-        {
-            "session_id": "d50799d3-d50e-421c-82ae-9ecbfa4496d7",
-            "messages": [
+                    "sender": {
+                        "id": 1,
+                        "name": "user1",
+                        "connect_time": "03/13/2023, 00:13:19"
+                    },
+                    "text": "etyertyrtdyhrtdy",
+                    "time": "03/13/2023, 00:14:40",
+                    "msg_id": 4
+                },
                 {
-                    "sender": "Goga",
-                    "text": "qwe",
-                    "time": "03/12/2023, 01:50:38",
-                    "msg_id": 1
-                }
-            ]
-        },
-        {
-            "session_id": "33d3d86b-9872-4475-9960-fdd0c85f4ec8",
-            "messages": [
+                    "sender": {
+                        "id": 4,
+                        "name": "dsfsdf",
+                        "connect_time": "03/13/2023, 00:18:42"
+                    },
+                    "text": "fsdgdfg",
+                    "time": "03/13/2023, 00:18:46",
+                    "msg_id": 5
+                },
                 {
-                    "sender": "Gennadiy",
-                    "text": "sdf",
-                    "time": "03/12/2023, 01:52:24",
-                    "msg_id": 1
-                }
-            ]
-        },
-        {
-            "session_id": "e81b0029-e3a3-4106-9f9c-25b4dbe50b4c",
-            "messages": [
+                    "sender": {
+                        "id": 4,
+                        "name": "dsfsdf",
+                        "connect_time": "03/13/2023, 00:18:42"
+                    },
+                    "text": "wqeqweqwe",
+                    "time": "03/13/2023, 00:18:54",
+                    "msg_id": 6
+                },
                 {
-                    "sender": "Oleg",
-                    "text": "sdf",
-                    "time": "03/12/2023, 01:53:26",
-                    "msg_id": 1
-                }
-            ]
-        },
-        {
-            "session_id": "1425a6d6-6165-4072-90c7-e54af079b83d",
-            "messages": []
-        },
-        {
-            "session_id": "6513b67a-fa08-4210-a283-c08f8c270d46",
-            "messages": [
+                    "sender": {
+                        "id": 5,
+                        "name": "user3qw",
+                        "connect_time": "03/13/2023, 00:19:07"
+                    },
+                    "text": "dsfhdtytrsyh",
+                    "time": "03/13/2023, 00:19:09",
+                    "msg_id": 7
+                },
                 {
-                    "sender": "sdf",
+                    "sender": {
+                        "id": 5,
+                        "name": "user3qw",
+                        "connect_time": "03/13/2023, 00:19:07"
+                    },
+                    "text": "dfggdfs",
+                    "time": "03/13/2023, 00:19:11",
+                    "msg_id": 8
+                },
+                {
+                    "sender": {
+                        "id": 6,
+                        "name": "sfghfgdhfdgh",
+                        "connect_time": "03/13/2023, 00:19:19"
+                    },
+                    "text": "dfg",
+                    "time": "03/13/2023, 00:19:21",
+                    "msg_id": 9
+                },
+                {
+                    "sender": {
+                        "id": 4,
+                        "name": "dsfsdf",
+                        "connect_time": "03/13/2023, 00:18:42"
+                    },
                     "text": "dsfg",
-                    "time": "03/12/2023, 01:55:37",
-                    "msg_id": 1
+                    "time": "03/13/2023, 00:19:23",
+                    "msg_id": 10
+                },
+                {
+                    "sender": {
+                        "id": 6,
+                        "name": "sfghfgdhfdgh",
+                        "connect_time": "03/13/2023, 00:19:19"
+                    },
+                    "text": "gfsh",
+                    "time": "03/13/2023, 00:19:25",
+                    "msg_id": 11
                 }
             ]
         },
         {
-            "session_id": "a4581966-39d3-4f9b-857e-075e0a3a3472",
+            "session_id": "34e47f02-2b25-41ca-9805-57c1d03cec95",
             "messages": [
                 {
-                    "sender": "Billy",
-                    "text": "ho-ho-ho",
-                    "time": "03/12/2023, 01:56:33",
+                    "sender": {
+                        "id": 1,
+                        "name": "Леся",
+                        "connect_time": "03/13/2023, 00:21:06"
+                    },
+                    "text": "Привет всем!",
+                    "time": "03/13/2023, 00:21:32",
                     "msg_id": 1
+                },
+                {
+                    "sender": {
+                        "id": 1,
+                        "name": "Леся",
+                        "connect_time": "03/13/2023, 00:21:06"
+                    },
+                    "text": "Боби чмо",
+                    "time": "03/13/2023, 00:22:10",
+                    "msg_id": 2
+                },
+                {
+                    "sender": {
+                        "id": 3,
+                        "name": "Боби",
+                        "connect_time": "03/13/2023, 00:22:00"
+                    },
+                    "text": "И тебе привет",
+                    "time": "03/13/2023, 00:22:20",
+                    "msg_id": 3
+                },
+                {
+                    "sender": {
+                        "id": 2,
+                        "name": "Денчик",
+                        "connect_time": "03/13/2023, 00:21:55"
+                    },
+                    "text": "Я доктор",
+                    "time": "03/13/2023, 00:22:27",
+                    "msg_id": 4
                 }
             ]
         }

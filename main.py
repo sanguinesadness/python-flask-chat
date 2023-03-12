@@ -10,24 +10,47 @@ all_messages = []
 connected_users = []
 
 
-def add_message(sender, text):
+def add_message(sender_id, text):
     global msg_id
+
+    sender = None
+    for user in connected_users:
+        if int(user["id"]) == int(sender_id):
+            sender = user
+
+    if sender is None:
+        return
+
     msg = {
         "sender": sender,
         "text": text,
         "time": datetime.now(),
-        "msg_id": msg_id
+        "msg_id": msg_id,
+        "delete_targets": []
     }
     msg_id += 1
     all_messages.append(msg)
 
-    # Same msg object but with converted "time" property to str
+    # Same msg object but with converted "time" property to str and "sender"."connect_time"
     msg_for_logs = {
        **msg,
+       "sender": {
+          **msg["sender"],
+          "connect_time": msg["sender"]["connect_time"].strftime("%m/%d/%Y, %H:%M:%S")
+       },
        "time": msg["time"].strftime("%m/%d/%Y, %H:%M:%S")
     }
+    del msg_for_logs["delete_targets"]
     logs.logs_write_message(msg_for_logs)
 
+def delete_msg(msg_id, target):
+    for message in all_messages:
+      if int(message["msg_id"]) == int(msg_id):
+          del_targets = message["delete_targets"]
+          if target == "everyone" and target in del_targets:
+              continue
+          del_targets.append(target)
+          message["delete_targets"] = del_targets
 
 def add_user(name):
     global user_id
@@ -58,9 +81,8 @@ def get_messages():
             connect_time = user["connect_time"]
     messages = []
     for message in all_messages:
-        if message["time"] >= connect_time:
+        if message["time"] >= connect_time and sender_id not in message["delete_targets"] and "everyone" not in message["delete_targets"]:
             messages.append(message)
-
     return { "messages": messages }
 
 
@@ -71,9 +93,9 @@ def get_users():
 
 @app.route("/send_message")
 def send_message():
-    sender = request.args["sender"]
+    sender_id = request.args["sender_id"]
     text = request.args["text"]
-    add_message(sender, text)
+    add_message(sender_id, text)
     return { "result": True }
 
 
@@ -82,6 +104,13 @@ def connect_user():
     name = request.args["name"]
     return { "user": add_user(name) }
 
+
+@app.route("/delete_message")
+def delete_message():
+    msg_id = request.args["msg_id"]
+    target = request.args["target"]
+    delete_msg(msg_id, target)
+    return { "result": True }
 
 @app.route("/")
 def hello_page():
